@@ -1,0 +1,1 @@
+const nav=document.querySelector("nav");window.onscroll=()=>{window.scrollY>6?nav.classList.add("scrolled"):nav.classList.remove("scrolled")},document.getElementById("year").innerHTML=new Date().getFullYear();
